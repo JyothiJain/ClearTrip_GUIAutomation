@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="clearTrip" parallel="false">
+
+
+
+    <test name="clearTripTest">
+        <classes>
+            <class name="com.qa.test.FlightBookingTest"/>
+            <class name="com.qa.test.HotelBookingTest"/>
+            <class name="com.qa.test.SignInTest"/>
+        </classes>
+    </test>
+</suite>

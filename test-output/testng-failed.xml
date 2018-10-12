@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [clearTrip]" guice-stage="DEVELOPMENT">
+  <test name="clearTripTest(failed)">
+    <classes>
+      <class name="com.qa.test.FlightBookingTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="tearDown"/>
+          <include name="testRoundTrip"/>
+          <include name="testOneWayTrip"/>
+          <include name="initialSetup"/>
+          <include name="afterSuiteMethod"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.qa.test.FlightBookingTest -->
+    </classes>
+  </test> <!-- clearTripTest(failed) -->
+</suite> <!-- Failed suite [clearTrip] -->
